@@ -1,7 +1,7 @@
 // Задание 6
 
-const chek = document.getElementById('chek')
-const best = document.getElementById('best')
+const chek = document.getElementById('chek');
+const best = document.getElementById('best');
 function chekBest () {
     if (chek.checked) {
         best.style.color = "red";
